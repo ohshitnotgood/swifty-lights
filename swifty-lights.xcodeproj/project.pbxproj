@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58D696C12BBB498300153DE8 /* swifty_lightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D696C02BBB498300153DE8 /* swifty_lightsApp.swift */; };
+		58D696C32BBB498300153DE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D696C22BBB498300153DE8 /* ContentView.swift */; };
+		58D696C52BBB498300153DE8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D696C42BBB498300153DE8 /* Item.swift */; };
+		58D696C72BBB498500153DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D696C62BBB498500153DE8 /* Assets.xcassets */; };
+		58D696CA2BBB498500153DE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D696C92BBB498500153DE8 /* Preview Assets.xcassets */; };
+		58D696D52BBB498500153DE8 /* swifty_lightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D696D42BBB498500153DE8 /* swifty_lightsTests.swift */; };
+		58D696DF2BBB498500153DE8 /* swifty_lightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D696DE2BBB498500153DE8 /* swifty_lightsUITests.swift */; };
+		58D696E12BBB498500153DE8 /* swifty_lightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D696E02BBB498500153DE8 /* swifty_lightsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58D696D12BBB498500153DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58D696B52BBB498300153DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D696BC2BBB498300153DE8;
+			remoteInfo = "swifty-lights";
+		};
+		58D696DB2BBB498500153DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58D696B52BBB498300153DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D696BC2BBB498300153DE8;
+			remoteInfo = "swifty-lights";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58D696BD2BBB498300153DE8 /* swifty-lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swifty-lights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D696C02BBB498300153DE8 /* swifty_lightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swifty_lightsApp.swift; sourceTree = "<group>"; };
+		58D696C22BBB498300153DE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58D696C42BBB498300153DE8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		58D696C62BBB498500153DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58D696C92BBB498500153DE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58D696CB2BBB498500153DE8 /* swifty_lights.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swifty_lights.entitlements; sourceTree = "<group>"; };
+		58D696D02BBB498500153DE8 /* swifty-lightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swifty-lightsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D696D42BBB498500153DE8 /* swifty_lightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swifty_lightsTests.swift; sourceTree = "<group>"; };
+		58D696DA2BBB498500153DE8 /* swifty-lightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swifty-lightsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D696DE2BBB498500153DE8 /* swifty_lightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swifty_lightsUITests.swift; sourceTree = "<group>"; };
+		58D696E02BBB498500153DE8 /* swifty_lightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swifty_lightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58D696BA2BBB498300153DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D696CD2BBB498500153DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D696D72BBB498500153DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58D696B42BBB498300153DE8 = {
+			isa = PBXGroup;
+			children = (
+				58D696BF2BBB498300153DE8 /* swifty-lights */,
+				58D696D32BBB498500153DE8 /* swifty-lightsTests */,
+				58D696DD2BBB498500153DE8 /* swifty-lightsUITests */,
+				58D696BE2BBB498300153DE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58D696BE2BBB498300153DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58D696BD2BBB498300153DE8 /* swifty-lights.app */,
+				58D696D02BBB498500153DE8 /* swifty-lightsTests.xctest */,
+				58D696DA2BBB498500153DE8 /* swifty-lightsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58D696BF2BBB498300153DE8 /* swifty-lights */ = {
+			isa = PBXGroup;
+			children = (
+				58D696C02BBB498300153DE8 /* swifty_lightsApp.swift */,
+				58D696C22BBB498300153DE8 /* ContentView.swift */,
+				58D696C42BBB498300153DE8 /* Item.swift */,
+				58D696C62BBB498500153DE8 /* Assets.xcassets */,
+				58D696CB2BBB498500153DE8 /* swifty_lights.entitlements */,
+				58D696C82BBB498500153DE8 /* Preview Content */,
+			);
+			path = "swifty-lights";
+			sourceTree = "<group>";
+		};
+		58D696C82BBB498500153DE8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58D696C92BBB498500153DE8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58D696D32BBB498500153DE8 /* swifty-lightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				58D696D42BBB498500153DE8 /* swifty_lightsTests.swift */,
+			);
+			path = "swifty-lightsTests";
+			sourceTree = "<group>";
+		};
+		58D696DD2BBB498500153DE8 /* swifty-lightsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58D696DE2BBB498500153DE8 /* swifty_lightsUITests.swift */,
+				58D696E02BBB498500153DE8 /* swifty_lightsUITestsLaunchTests.swift */,
+			);
+			path = "swifty-lightsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58D696BC2BBB498300153DE8 /* swifty-lights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D696E42BBB498500153DE8 /* Build configuration list for PBXNativeTarget "swifty-lights" */;
+			buildPhases = (
+				58D696B92BBB498300153DE8 /* Sources */,
+				58D696BA2BBB498300153DE8 /* Frameworks */,
+				58D696BB2BBB498300153DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swifty-lights";
+			productName = "swifty-lights";
+			productReference = 58D696BD2BBB498300153DE8 /* swifty-lights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58D696CF2BBB498500153DE8 /* swifty-lightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D696E72BBB498500153DE8 /* Build configuration list for PBXNativeTarget "swifty-lightsTests" */;
+			buildPhases = (
+				58D696CC2BBB498500153DE8 /* Sources */,
+				58D696CD2BBB498500153DE8 /* Frameworks */,
+				58D696CE2BBB498500153DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D696D22BBB498500153DE8 /* PBXTargetDependency */,
+			);
+			name = "swifty-lightsTests";
+			productName = "swifty-lightsTests";
+			productReference = 58D696D02BBB498500153DE8 /* swifty-lightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58D696D92BBB498500153DE8 /* swifty-lightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D696EA2BBB498500153DE8 /* Build configuration list for PBXNativeTarget "swifty-lightsUITests" */;
+			buildPhases = (
+				58D696D62BBB498500153DE8 /* Sources */,
+				58D696D72BBB498500153DE8 /* Frameworks */,
+				58D696D82BBB498500153DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D696DC2BBB498500153DE8 /* PBXTargetDependency */,
+			);
+			name = "swifty-lightsUITests";
+			productName = "swifty-lightsUITests";
+			productReference = 58D696DA2BBB498500153DE8 /* swifty-lightsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58D696B52BBB498300153DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					58D696BC2BBB498300153DE8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					58D696CF2BBB498500153DE8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 58D696BC2BBB498300153DE8;
+					};
+					58D696D92BBB498500153DE8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 58D696BC2BBB498300153DE8;
+					};
+				};
+			};
+			buildConfigurationList = 58D696B82BBB498300153DE8 /* Build configuration list for PBXProject "swifty-lights" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58D696B42BBB498300153DE8;
+			productRefGroup = 58D696BE2BBB498300153DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58D696BC2BBB498300153DE8 /* swifty-lights */,
+				58D696CF2BBB498500153DE8 /* swifty-lightsTests */,
+				58D696D92BBB498500153DE8 /* swifty-lightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58D696BB2BBB498300153DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D696CA2BBB498500153DE8 /* Preview Assets.xcassets in Resources */,
+				58D696C72BBB498500153DE8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D696CE2BBB498500153DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D696D82BBB498500153DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58D696B92BBB498300153DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D696C32BBB498300153DE8 /* ContentView.swift in Sources */,
+				58D696C52BBB498300153DE8 /* Item.swift in Sources */,
+				58D696C12BBB498300153DE8 /* swifty_lightsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D696CC2BBB498500153DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D696D52BBB498500153DE8 /* swifty_lightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D696D62BBB498500153DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D696DF2BBB498500153DE8 /* swifty_lightsUITests.swift in Sources */,
+				58D696E12BBB498500153DE8 /* swifty_lightsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58D696D22BBB498500153DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D696BC2BBB498300153DE8 /* swifty-lights */;
+			targetProxy = 58D696D12BBB498500153DE8 /* PBXContainerItemProxy */;
+		};
+		58D696DC2BBB498500153DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D696BC2BBB498300153DE8 /* swifty-lights */;
+			targetProxy = 58D696DB2BBB498500153DE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58D696E22BBB498500153DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58D696E32BBB498500153DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		58D696E52BBB498500153DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swifty-lights/swifty_lights.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swifty-lights/Preview Content\"";
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.praanto.swifty-lights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58D696E62BBB498500153DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swifty-lights/swifty_lights.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swifty-lights/Preview Content\"";
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.praanto.swifty-lights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		58D696E82BBB498500153DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.praanto.swifty-lightsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swifty-lights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swifty-lights";
+			};
+			name = Debug;
+		};
+		58D696E92BBB498500153DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.praanto.swifty-lightsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swifty-lights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swifty-lights";
+			};
+			name = Release;
+		};
+		58D696EB2BBB498500153DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.praanto.swifty-lightsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "swifty-lights";
+			};
+			name = Debug;
+		};
+		58D696EC2BBB498500153DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.praanto.swifty-lightsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "swifty-lights";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58D696B82BBB498300153DE8 /* Build configuration list for PBXProject "swifty-lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D696E22BBB498500153DE8 /* Debug */,
+				58D696E32BBB498500153DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D696E42BBB498500153DE8 /* Build configuration list for PBXNativeTarget "swifty-lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D696E52BBB498500153DE8 /* Debug */,
+				58D696E62BBB498500153DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D696E72BBB498500153DE8 /* Build configuration list for PBXNativeTarget "swifty-lightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D696E82BBB498500153DE8 /* Debug */,
+				58D696E92BBB498500153DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D696EA2BBB498500153DE8 /* Build configuration list for PBXNativeTarget "swifty-lightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D696EB2BBB498500153DE8 /* Debug */,
+				58D696EC2BBB498500153DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58D696B52BBB498300153DE8 /* Project object */;
+}
